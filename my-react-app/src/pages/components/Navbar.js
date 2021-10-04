@@ -9,7 +9,7 @@ function Navbar() {
           <div className="navbar-brand">
             <img
               className="logo"
-              src='../assets/freshly-logo.svg'
+              src='https://www.freshlycosmetics.com/img/logo-freshly.svg'
               alt="logo"
             />
           </div>
