@@ -23,3 +23,18 @@ img.image-hero {
     mix-blend-mode: multiply;
     max-height: 550px;
 }
+
+@media (max-width: 450px) {
+    img.image-hero {
+        display: none;
+    }
+    .bg-hero {
+        background: #282828;
+    }
+    h1 {
+        color: white;
+    }
+    img.logo {
+        filter: invert(1);
+    }
+}
