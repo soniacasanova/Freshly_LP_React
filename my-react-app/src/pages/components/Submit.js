@@ -7,7 +7,7 @@ function Submit() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    alert('The email you entered was: ${email}')
+    alert(`The email you entered was:${email}`)
   }
 
   return (
