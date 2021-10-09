@@ -1,0 +1,16 @@
+.web {
+    height: 500px;
+    max-height: 500px;
+    padding: 20px 0;
+    background: #282828;
+}
+.visit-our-web {
+    text-align: center;
+    color: white;
+    max-width: 900px !important;
+}
+.visit-our-web h2 {
+    font-size: 52px;
+    color: white;
+    margin-bottom: 40px;
+}

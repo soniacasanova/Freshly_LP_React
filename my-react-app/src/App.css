@@ -2,9 +2,24 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'PT sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+h2 {
+  font-family: 'Montserrat';
+  font-weight: 300 !important;
+  text-transform: uppercase;
+  color: #0F0F0F;
+  margin-bottom: 40px;
+}
+h3 {
+    text-transform: uppercase;
+    color: #0F0F0F;
+    margin-top: 20px;
+    font-weight: 100 !important;
+    font-size: 22px !important;
 }
 
-body {
-  font-family: 'Montserrat', sans-serif;
+p {
+  font-weight: 100;
+  font-size: 18px;
 }
