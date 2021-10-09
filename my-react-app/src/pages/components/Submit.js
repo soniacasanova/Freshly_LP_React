@@ -12,7 +12,7 @@ function Submit() {
 
   return (
     <form onSubmit={handleSubmit}>
-      <label>Enter your email: 
+      <label>Enter your email:  
         <input 
           type="text" 
           value={email}
