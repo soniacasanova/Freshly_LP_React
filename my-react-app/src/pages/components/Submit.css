@@ -3,4 +3,22 @@ input[type="text"] {
 }
 label {
     margin-right: 10px;
+    font-weight: 100;
+}
+input.email-input {
+    max-width: 300px;
+    margin: 6px;
+    height: 38px;
+    width: 300px;
+}
+input.btn.btn-outline {
+    text-transform: uppercase;
+    background: #FFFFFF;
+    border: 1px solid #282828;
+    box-sizing: border-box;
+    padding: 0.5rem 3rem;
+}
+input.btn.btn-outline:hover {
+    background-color: #282828;
+    color: white;
 }

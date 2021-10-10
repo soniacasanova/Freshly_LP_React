@@ -14,12 +14,14 @@ function Submit() {
     <form onSubmit={handleSubmit}>
       <label>Enter your email:  
         <input 
-          type="text" 
+          className="email-input"  
+          type="email" 
+          name="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />
       </label>
-      <input className="btn btn-green" type="submit" />
+      <input className="btn btn-outline" type="submit" />
     </form>
   )
 }

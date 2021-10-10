@@ -5,6 +5,7 @@ import './Subscribe.css'
 export default function Subscribe() {
     return (
         <>
+        <div className="subscribe">
             <div className="photo-grid">
             <div className="title-subs">
                 <h2>SUBSCRIBE TO OUR NEWSLETTER 
@@ -30,8 +31,10 @@ export default function Subscribe() {
                     </div>
                   </div>
             </div>
+            </div>
+            
             <div className="row g-3 align-items-center">
-              
+              <h2> SUBSCRIBE HERE TO OUR NEWSLETTER </h2>
                 <div className="col-auto">
                  <Submit />
               </div>
