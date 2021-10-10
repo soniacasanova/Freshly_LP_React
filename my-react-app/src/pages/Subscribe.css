@@ -18,3 +18,13 @@ img.image-grid.img-fluid {
 .subscribe {
     margin-bottom: 4rem;
 }
+.form-email {
+    text-align: center;
+}
+
+@media (max-width: 450px) {
+    img.image-grid.img-fluid {
+        height: 200px;
+        width: 200px;
+    }
+}
